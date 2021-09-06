@@ -32,8 +32,8 @@ window.onload = function(){
 	
 	// スクリーンの初期化
 	screenCanvas = document.getElementById('screen');
-	screenCanvas.width = ７００;
-	screenCanvas.height = ７００;
+	screenCanvas.width = 700;
+	screenCanvas.height = 700;
 	
 	// 自機の初期位置を修正
 	mouse.x = screenCanvas.width / 2;
