@@ -5,19 +5,10 @@
         <script src="character.js"></script>
         <script src="boss.js"></script>
         <script src="main.js"></script>
-
         <style>canvas {border: 1px solid gray;}</style>
     </head>
     <body>
         <canvas id="screen"></canvas>
-        <script>
-        var canvas = document.getElementById("myCanvas");
-        var ctx = canvas.getContext("2d");
-        canvas.addEventListener("touchstart", touchStart);
-        function touchStart(e){
-            console.log(e.touches);
-        }
-    </script>
         <p id="info"></p>
     </body>
 </html>
